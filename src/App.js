@@ -1,11 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./component/header"
+import HeadLine from "./component/headline"
+import './app.scss'
 
 function App() {
   return (
     <div className="App">
-      KIRAN
+      <Header />
+      <section className="main">
+          <HeadLine header="Posts" desc="How do you do?"/>
+      </section>
     </div>
   );
 }
